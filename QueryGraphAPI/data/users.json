@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+
+      "displayName": "[TEST] John S",
+      "givenName": "John",
+      "surname": "S",
+      "identities": [
+        {
+          "signInType": "emailAddress",
+          "issuerAssignedId": "john.k@learnsmartcoding.com"
+        }
+      ],
+      "password": "Pass!w0rd"
+    },
+    {
+
+      "displayName": "[TEST] Mike",
+      "givenName": "Mike",
+      "surname": "L",
+      "identities": [
+        {
+          "signInType": "emailAddress",
+          "issuerAssignedId": "mike.k@learnsmartcoding.com"
+        }
+      ],
+      "password": "Pass!w0rd"
+    },
+    {
+
+      "displayName": "[TEST] Sander John (Social)",
+      "givenName": "Sander",
+      "surname": "John",
+      "identities": [
+        {
+          "signInType": "federated",
+          "issuer": "facebook.com",
+          "issuerAssignedId": "0987654321"
+        }
+      ],
+      "otherMails": [ "sander@abc.com" ]
+    },
+    {
+
+      "displayName": "[TEST] Edith Hugo (Local and social)",
+      "givenName": "Edith",
+      "surname": "Hugo",
+      "identities": [
+        {
+          "signInType": "federated",
+          "issuer": "google.com",
+          "issuerAssignedId": "1234567890"
+        },
+        {
+          "signInType": "federated",
+          "issuer": "github.com",
+          "issuerAssignedId": "abcdef"
+        },
+        {
+          "signInType": "emailAddress",
+          "issuerAssignedId": "Hugo@asd.com"
+        }
+      ],
+      "password": "1234"
+    }
+  ]
+}
